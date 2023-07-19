@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Excersice</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
 </head>
 <body>
+<?php
     <div class = "container-md">
         <h2 class"display-6 text-center">Employee Resistration system</h2>
         <p class"lead text-center ">Registration form</p>
@@ -32,5 +33,6 @@
             <button type = "submit" name = "submit">Regester</button>
         </p>
     </form>
+    ?>
 </body>
 </html>

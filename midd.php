@@ -8,16 +8,19 @@
 <body>
   <?php
 
-  $name =$_POST['name'];
-  $phone =$_POST['phone'];
+  $fname =$_POST['fname'];
+  $lname =$_POST['lname'];
   $gender =$_POST['gender'];
+  $School =$_POST['School'];
+  $Grade =$_POST['Grade'];
 
   echo "<span style = 'txt-align: center ;coloe:blue;' > form</span>";
   echo"</br>";
-  echo" employee name is : <span style ='color:indigo'> $name </span> <br>";
-  echo " empolyee pone is:n<pan style = 'color :pink'> $phone  </pan><br>";
+  echo"  <span fname is : style ='color:indigo'> $fname </span> <br>";
+  echo " <span lname is  : style = 'color :pink'> $lname  </span><br>";
   echo "<span gender is  : style ='color: blue '>  $gender</span><br>";
-
+  echo "<span School is  : style ='color: blue '>  $School</span><br>";
+  echo "<span Grade is  : style ='color: Red '>  $Grade</span><br>";
   ?>
 </body>
 </html>
